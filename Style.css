@@ -1,0 +1,133 @@
+BODY {
+    background-image: url("tlo.jpg");
+
+}
+
+#logo {
+    font-size: 30px;
+    font-family: Marker Felt, fantasy;
+    color: rgba(108, 105, 112, 0.97);
+    text-align: center;
+}
+
+#moves {
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+    color: rgba(108, 105, 112, 0.97);
+    text-align: center;
+    padding: 10px;
+}
+
+#puzzle {
+    background-color: black;
+    display: table;
+    border-radius: 40px;
+
+
+
+}
+#EndImage{
+    display: table;
+    background-image: url("Obraz1.jpg");
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 1px 2px 30px 30px rgb(228, 202, 59);
+
+}
+
+.block {
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    background-color: #6c6970;
+    box-shadow: 1px 2px 25px 15px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: Marker Felt, fantasy;
+    font-size: 20px;
+
+
+}
+
+.element1, .element2, .element3, .element4, .element5, .element6, .element7, .element8, .element9, .element10, .element11, .element12, .element13, .element14 {
+    display: table-cell;
+    width: 256px;
+    height: 240px;
+    border: 2px solid black;
+    background: url("Obraz1.jpg");
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 1px 2px 15px 8px rgba(0, 0, 0, 0.75) inset;
+
+
+
+}
+
+.element15 {
+    display: table-cell;
+    background: black;
+    border: 2px solid black;
+    box-shadow: 1px 2px 3px 5px rgba(0, 0, 0, 0.75) inset;
+    border-radius: 20px;
+}
+
+
+.element1 {
+    background-position: 0% 0%
+}
+
+.element2 {
+    background-position: 25% 0%
+}
+
+.element3 {
+    background-position: 50% 0%
+}
+
+.element4 {
+    background-position: 75% 0%
+}
+
+.element5 {
+    background-position: 100% 0%
+}
+
+.element6 {
+    background-position: 0% 50%
+}
+
+.element7 {
+    background-position: 25% 50%
+}
+
+.element8 {
+    background-position: 50% 50%
+}
+
+.element9 {
+    background-position: 75% 50%
+}
+
+.element10 {
+    background-position: 100% 50%
+}
+
+.element11 {
+    background-position: 0% 100%
+}
+
+.element12 {
+    background-position: 25% 100%
+}
+
+.element13 {
+    background-position: 50% 100%
+}
+
+.element14 {
+    background-position: 75% 100%
+}
+
+.element15 {
+    background-position: 100% 100%
+}

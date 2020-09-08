@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15 Pieces Sliding Puzzle Game</title>
+
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="Main.js"></script>
+</head>
+<body onload="mix()">
+
+<center>
+
+    <div id="logo"><h1>15 Pieces Sliding Puzzle Game</h1></div>
+    <div id="moves">Moves: 0</div>
+    <br><br>
+    <div id="EndImage">
+    <div id="puzzle"style="opacity: 1">
+
+            <div id="row1" style="display: table-row ">
+                <div id="puzzle11" class="element1" onclick="verification(1,1)" style="opacity: 1"></div>
+                <div id="puzzle12" class="element2" onclick="verification(1,2)" style="opacity: 1"></div>
+                <div id="puzzle13" class="element3" onclick="verification(1,3)" style="opacity: 1"></div>
+                <div id="puzzle14" class="element4" onclick="verification(1,4)" style="opacity: 1"></div>
+                <div id="puzzle15" class="element5" onclick="verification(1,5)" style="opacity: 1"></div>
+            </div>
+            <div id="row2" style="display: table-row">
+                <div id="puzzle21" class="element6" onclick="verification(2,1)" style="opacity: 1"></div>
+                <div id="puzzle22" class="element7" onclick="verification(2,2)" style="opacity: 1"></div>
+                <div id="puzzle23" class="element8" onclick="verification(2,3)" style="opacity: 1"></div>
+                <div id="puzzle24" class="element9" onclick="verification(2,4)" style="opacity: 1"></div>
+                <div id="puzzle25" class="element10" onclick="verification(2,5)" style="opacity: 1"></div>
+            </div>
+            <div id="row3" style="display: table-row">
+                <div id="puzzle31" class="element11" onclick="verification(3,1)" style="opacity: 1"></div>
+                <div id="puzzle32" class="element12" onclick="verification(3,2)" style="opacity: 1"></div>
+                <div id="puzzle33" class="element13" onclick="verification(3,3)" style="opacity: 1"></div>
+                <div id="puzzle34" class="element14" onclick="verification(3,4)" style="opacity: 1"></div>
+                <div id="puzzle35" class="element15" onclick="verification(3,5)" style="opacity: 1"></div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+
+    <button class="block" ONCLICK="location.reload()">NewGame</button>
+
+
+
+
+</center>
+</body>
+</html>
